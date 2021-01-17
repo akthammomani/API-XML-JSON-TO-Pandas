@@ -24,7 +24,7 @@ Before we can do anything, we need to install the library. So let’s go ahead a
   * response = requests.get('url')
   * print(response)
 
-So all this code is doing is sending a GET request to url (API. This is the same type of request our browser sent to view this page, but the only difference is that Requests can’t actually render the HTML, so instead we will just get the raw HTML and the other response information.
+So all this code is doing is sending a GET request to url (API). This is the same type of request our browser sent to view this page, but the only difference is that Requests can’t actually render the HTML, so instead we will just get the raw HTML and the other response information.
 
 ## Status Codes
 
@@ -38,6 +38,18 @@ Here’s a quick overview of what each status code means:
 Generally, what you’re looking for when you perform your own requests are status codes in the 200s.
 Requests recognizes that 4XX and 5XX status codes are errors, so if those status codes get returned, the response object from the request evaluates to False.
 
- 
+## Headers
+Another thing we can get from the response are the headers. We can take a look at them by using the headers dictionary on the response object.
+
+  * response.headers
+  
+## Response Text
+
+And finally, if we take a look at response.text (this works for textual data, like a HTML page like we are viewing) we can see all the HTML needed to build the home page of a specific website. It won’t be rendered, but we see that it looks like it belongs to a specific website. If we saved this to a file and opened it, you would see something that resembled the a specific website. In a real situation, multiple requests are made for a single web page to load things like images, scripts and stylesheets, so if we save only the HTML to a file, it won’t look anything like what the a specific website page looks like in your browser because only a single request was performed to get the HTML data.
+  
+  * response.text 
+  
+  
+
  
 
