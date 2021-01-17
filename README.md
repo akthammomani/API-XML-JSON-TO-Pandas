@@ -30,11 +30,11 @@ So all this code is doing is sending a GET request to url (API). This is the sam
 
 The first thing we can do is check the status code. HTTP codes range from the 1XX to 5XX. Common status codes that you have probably seen are 200, 404, and 500.
 Here’s a quick overview of what each status code means:
-	• 1XX - Information
-	• 2XX - Success
-	• 3XX - Redirect
-	• 4XX - Client Error (you messed up)
-	• 5XX - Server Error (they messed up)
+  • 1XX - Information
+  • 2XX - Success
+  • 3XX - Redirect
+  • 4XX - Client Error (you messed up)
+  • 5XX - Server Error (they messed up)
 Generally, what you’re looking for when you perform your own requests are status codes in the 200s.
 Requests recognizes that 4XX and 5XX status codes are errors, so if those status codes get returned, the response object from the request evaluates to False.
 
