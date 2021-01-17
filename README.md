@@ -16,13 +16,13 @@ And since using an API is simply sending HTTP requests and receiving responses, 
 ## Install Python Requests
 Before we can do anything, we need to install the library. So let’s go ahead and install requests using pip: 
 
-pip install requests
+  * pip install requests
 
 ## Our First Request
 
-import requests
-response = requests.get('url')
-print(response)
+  * import requests
+  * response = requests.get('url')
+  * print(response)
 
 So all this code is doing is sending a GET request to url (API. This is the same type of request our browser sent to view this page, but the only difference is that Requests can’t actually render the HTML, so instead we will just get the raw HTML and the other response information.
 
