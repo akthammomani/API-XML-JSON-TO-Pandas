@@ -1,7 +1,7 @@
 # Qunadl API:
 
 <p align="center">
-  <img width="660" height="500" src="https://user-images.githubusercontent.com/67468718/103331421-b454e600-4a1a-11eb-8487-3b0405288dcc.JPG">
+  <img width="500" height="400" src="https://user-images.githubusercontent.com/67468718/103331421-b454e600-4a1a-11eb-8487-3b0405288dcc.JPG">
 </p>
 
   * For this exercise, it's required to pull some data from the Qunadl API. 
