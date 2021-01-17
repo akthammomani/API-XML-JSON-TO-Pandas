@@ -1,10 +1,10 @@
-# Qunadl API:
+# Qunadl API: JSON to Pandas
 
 <p align="center">
   <img width="500" height="400" src="https://user-images.githubusercontent.com/67468718/103331421-b454e600-4a1a-11eb-8487-3b0405288dcc.JPG">
 </p>
 
-  * For this exercise, it's required to pull some data from the Qunadl API. 
+  * For this project it's required to pull some data from the Qunadl API. 
   * Qaundl is currently the most widely used aggregator of financial market data.
   * Qaundl has a large number of data sources, but, unfortunately, most of them require a Premium subscription. Still, there are also a good number of free datasets.
   * For this project, we will focus on equities data from the Frankfurt Stock Exhange (FSE), which is available for free. We'll try and analyze the stock prices of a company called Carl Zeiss Meditec, which manufactures tools for eye examinations, as well as medical lasers for laser eye surgery: https://www.zeiss.com/meditec/int/home.html. The company is listed under the stock ticker AFX_X.
