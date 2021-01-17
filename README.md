@@ -33,6 +33,7 @@ Here’s a quick overview of what each status code means:
   * 3XX - Redirect
   * 4XX - Client Error (you messed up)
   * 5XX - Server Error (they messed up)
+  
 Generally, what you’re looking for when you perform your own requests are status codes in the 200s.
 Requests recognizes that 4XX and 5XX status codes are errors, so if those status codes get returned, the response object from the request evaluates to False.
 
