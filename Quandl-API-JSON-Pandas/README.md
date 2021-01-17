@@ -4,6 +4,8 @@
   <img width="500" height="400" src="https://user-images.githubusercontent.com/67468718/103331421-b454e600-4a1a-11eb-8487-3b0405288dcc.JPG">
 </p>
 
+## Introduction:
+
   * For this project it's required to pull some data from the Qunadl API. 
   * Qaundl is currently the most widely used aggregator of financial market data.
   * Qaundl has a large number of data sources, but, unfortunately, most of them require a Premium subscription. Still, there are also a good number of free datasets.
@@ -11,7 +13,9 @@
   * While there is a dedicated Python package for connecting to the Quandl API, we would prefer that using the requests package.
   
   
-  ## These are our tasks for this project:
+ ## Objective
+ 
+ #### These are our tasks for this project:
 
   * Collect data from the Franfurt Stock Exchange, for the ticker AFX_X, for the whole year 2017 (keep in mind that the date format is YYYY-MM-DD).
   * Convert the returned JSON object into a Python dictionary.
