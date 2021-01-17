@@ -19,7 +19,6 @@ Before we can do anything, we need to install the library. So let’s go ahead a
   * pip install requests
 
 ## Our First Request
-
   * import requests
   * response = requests.get('url')
   * print(response)
@@ -27,9 +26,9 @@ Before we can do anything, we need to install the library. So let’s go ahead a
 So all this code is doing is sending a GET request to url (API). This is the same type of request our browser sent to view this page, but the only difference is that Requests can’t actually render the HTML, so instead we will just get the raw HTML and the other response information.
 
 ## Status Codes
-
 The first thing we can do is check the status code. HTTP codes range from the 1XX to 5XX. Common status codes that you have probably seen are 200, 404, and 500.
 Here’s a quick overview of what each status code means:
+
   • 1XX - Information
   • 2XX - Success
   • 3XX - Redirect
@@ -44,7 +43,6 @@ Another thing we can get from the response are the headers. We can take a look a
   * response.headers
   
 ## Response Text
-
 And finally, if we take a look at response.text (this works for textual data, like a HTML page like we are viewing) we can see all the HTML needed to build the home page of a specific website. It won’t be rendered, but we see that it looks like it belongs to a specific website. If we saved this to a file and opened it, you would see something that resembled the a specific website. In a real situation, multiple requests are made for a single web page to load things like images, scripts and stylesheets, so if we save only the HTML to a file, it won’t look anything like what the a specific website page looks like in your browser because only a single request was performed to get the HTML data.
   
   * response.text 
